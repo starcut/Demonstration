@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct RotateView: View {
     @ObservedObject var viewModel: ContentViewModel
     
     init() {

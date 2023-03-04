@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class ContentViewModel: NSObject, ObservableObject {
+class RotateViewModel: NSObject, ObservableObject {
     @Published var screenOrientation: String
     
     override init() {
