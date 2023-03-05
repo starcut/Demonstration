@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct RotateView: View {
-    @ObservedObject var viewModel: ContentViewModel
+    @ObservedObject var viewModel: RotateViewModel
     
     init() {
-        self.viewModel = ContentViewModel()
+        self.viewModel = RotateViewModel()
     }
     
     var body: some View {
@@ -41,6 +41,9 @@ struct RotateView: View {
                 }
                 Spacer()
             }
+        }
+        .onAppear {
+            AppDelegate.orientationLock = .all
         }
     }
 }

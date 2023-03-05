@@ -13,10 +13,7 @@ struct TestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .onAppear {
-                    AppDelegate.orientationLock = .all
-                }
+            PickerView()
         }
     }
 }
