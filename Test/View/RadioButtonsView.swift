@@ -1,10 +1,3 @@
-//
-//  RadioButtonsView.swift
-//  Test
-//
-//  Created by 清水脩輔 on 2023/03/07.
-//
-
 import SwiftUI
 
 struct RadioButtonsView: View {
