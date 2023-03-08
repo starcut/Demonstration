@@ -20,6 +20,8 @@
 		FCF5A94229B650DD004154F2 /* RadioButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */; };
 		FCF5A94429B65B71004154F2 /* RadioButtonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */; };
 		FCF5A94629B715DA004154F2 /* ApplicationNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */; };
+		FCF5A94829B85D0B004154F2 /* PlaySoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */; };
+		FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsView.swift; sourceTree = "<group>"; };
 		FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonsViewModel.swift; sourceTree = "<group>"; };
 		FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationNotificationView.swift; sourceTree = "<group>"; };
+		FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundView.swift; sourceTree = "<group>"; };
+		FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
 				FCF5A93F29B5B62A004154F2 /* TimerViewModel.swift */,
 				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
+				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				FCF5A93D29B5B5E5004154F2 /* TimerView.swift */,
 				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
+				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,12 +190,14 @@
 			files = (
 				FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
+				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
 				FCF5A94629B715DA004154F2 /* ApplicationNotificationView.swift in Sources */,
 				FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */,
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
 				FC83523B298EC1F400614D6B /* RotateView.swift in Sources */,
 				FCF5A94429B65B71004154F2 /* RadioButtonsViewModel.swift in Sources */,
+				FCF5A94829B85D0B004154F2 /* PlaySoundView.swift in Sources */,
 				FCF5A93A29B35587004154F2 /* PickerView.swift in Sources */,
 				FC835239298EC1F400614D6B /* TestApp.swift in Sources */,
 				FCF5A94229B650DD004154F2 /* RadioButtonsView.swift in Sources */,
