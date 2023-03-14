@@ -6,7 +6,7 @@ struct TestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LiveAudioView()
+            ShowAlertView()
         }
     }
 }

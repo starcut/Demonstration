@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */; };
 		FC0FD5A929B89F7200CBDA79 /* LiveAudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */; };
+		FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41429BB119700C49D2C /* DelayProcessingView.swift */; };
+		FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */; };
+		FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41829C0416D00C49D2C /* ShowAlertView.swift */; };
+		FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */; };
 		FC835239298EC1F400614D6B /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC835238298EC1F400614D6B /* TestApp.swift */; };
 		FC83523B298EC1F400614D6B /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83523A298EC1F400614D6B /* RotateView.swift */; };
 		FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523C298EC1F800614D6B /* Assets.xcassets */; };
@@ -29,6 +33,10 @@
 /* Begin PBXFileReference section */
 		FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioView.swift; sourceTree = "<group>"; };
 		FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioViewModel.swift; sourceTree = "<group>"; };
+		FC14A41429BB119700C49D2C /* DelayProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingView.swift; sourceTree = "<group>"; };
+		FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingViewModel.swift; sourceTree = "<group>"; };
+		FC14A41829C0416D00C49D2C /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
+		FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertViewModel.swift; sourceTree = "<group>"; };
 		FC835235298EC1F400614D6B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC835238298EC1F400614D6B /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		FC83523A298EC1F400614D6B /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
@@ -106,6 +114,8 @@
 				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
 				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
 				FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */,
+				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
+				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
 				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
 				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
+				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
+				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,13 +207,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */,
+				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
 				FCF5A94629B715DA004154F2 /* ApplicationNotificationView.swift in Sources */,
+				FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */,
 				FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */,
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
+				FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */,
+				FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */,
 				FC83523B298EC1F400614D6B /* RotateView.swift in Sources */,
 				FCF5A94429B65B71004154F2 /* RadioButtonsViewModel.swift in Sources */,
 				FC0FD5A929B89F7200CBDA79 /* LiveAudioViewModel.swift in Sources */,
