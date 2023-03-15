@@ -13,6 +13,7 @@
 		FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */; };
 		FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41829C0416D00C49D2C /* ShowAlertView.swift */; };
 		FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */; };
+		FC14A41D29C1A62600C49D2C /* TextNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41C29C1A62600C49D2C /* TextNumberView.swift */; };
 		FC835239298EC1F400614D6B /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC835238298EC1F400614D6B /* TestApp.swift */; };
 		FC83523B298EC1F400614D6B /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83523A298EC1F400614D6B /* RotateView.swift */; };
 		FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523C298EC1F800614D6B /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingViewModel.swift; sourceTree = "<group>"; };
 		FC14A41829C0416D00C49D2C /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
 		FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertViewModel.swift; sourceTree = "<group>"; };
+		FC14A41C29C1A62600C49D2C /* TextNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextNumberView.swift; sourceTree = "<group>"; };
 		FC835235298EC1F400614D6B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC835238298EC1F400614D6B /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		FC83523A298EC1F400614D6B /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
 				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
+				FC14A41C29C1A62600C49D2C /* TextNumberView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */,
+				FC14A41D29C1A62600C49D2C /* TextNumberView.swift in Sources */,
 				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
