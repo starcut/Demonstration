@@ -30,6 +30,17 @@ struct DatabaseListView: View {
                         Text("登録日: \(data.registerDate.transeJapaneseDateString())")
                         Text("更新日: \(data.updateDate.transeJapaneseDateString())")
                     }
+                    .swipeActions(edge: .trailing) {
+                        Button {
+                            self.viewModel.deleteData(data: data)
+                        } label: {
+                            ZStack {
+                                Color.red
+                                Text("削除")
+                                    .foregroundColor(Color.white)
+                            }
+                        }
+                    }
                 }
             }
         }
