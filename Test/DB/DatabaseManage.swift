@@ -19,7 +19,7 @@ class DatabaseManager {
         return Array(objects)
     }
     
-    func registerFavoriteSetting(data: DatabaseTableData) {
+    func registerData(data: DatabaseTableData) {
         do {
             self.realm = try? Realm()
             try? self.realm?.write {
@@ -28,7 +28,7 @@ class DatabaseManager {
         }
     }
     
-    func deleteFariteSetting(data: DatabaseTableData) {
+    func deleteData(data: DatabaseTableData) {
         do {
             self.realm = try? Realm()
             try? self.realm?.write {

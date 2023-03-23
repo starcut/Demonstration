@@ -14,7 +14,12 @@ class DatabaseListViewModel: ObservableObject {
                                      title: inputText,
                                      registerDate: Date(),
                                      updateDate: Date())
-        DatabaseManager.shared.registerFavoriteSetting(data: data)
+        DatabaseManager.shared.registerData(data: data)
+        self.data = DatabaseManager.shared.getInstance()
+    }
+    
+    func deleteData(data: DatabaseTableData) {
+        DatabaseManager.shared.deleteData(data: data)
         self.data = DatabaseManager.shared.getInstance()
     }
 }
