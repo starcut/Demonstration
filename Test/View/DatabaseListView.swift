@@ -4,6 +4,7 @@ struct DatabaseListView: View {
     @ObservedObject var viewModel: DatabaseListViewModel = DatabaseListViewModel()
     
     @State var inputText: String = ""
+    @State var updateText: String = ""
     
     var body: some View {
         VStack {
@@ -31,23 +32,36 @@ struct DatabaseListView: View {
                         Text("更新日: \(data.updateDate.transeJapaneseDateString())")
                     }
                     .swipeActions(edge: .trailing) {
-                        Button {
-                            self.viewModel.deleteData(data: data)
-                        } label: {
-                            ZStack {
-                                Color.red
-                                Text("削除")
-                                    .foregroundColor(Color.white)
+                        HStack {
+                            Button {
+                                self.viewModel.deleteData(data: data)
+                            } label: {
+                                ZStack {
+                                    Color.red
+                                    Text("削除")
+                                        .foregroundColor(Color.white)
+                                }
                             }
+                            Button {
+                                self.viewModel.isShownDialog = true
+                            } label: {
+                                ZStack {
+                                    Color.blue
+                                    Text("更新")
+                                        .foregroundColor(Color.white)
+                                }
+                            }
+                        }
+                    }
+                    .alert("文字列を入力してください", isPresented: self.$viewModel.isShownDialog) {
+                        TextField("文字列", text: self.$updateText)
+                        Button("Ok", role: .cancel){
+                            self.viewModel.updateData(data: data, inputText: self.updateText)
+                            self.updateText = ""
                         }
                     }
                 }
             }
-        }
-        .alert(isPresented: self.$viewModel.isShownDialog) {
-            Alert(title: Text("Error"),
-                  message: Text("登録に失敗しました"),
-                  dismissButton: .default(Text("閉じる")))
         }
     }
 }

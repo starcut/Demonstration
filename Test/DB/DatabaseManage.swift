@@ -28,6 +28,16 @@ class DatabaseManager {
         }
     }
     
+    func updateData(data: DatabaseTableData, title: String) {
+        do {
+            self.realm = try? Realm()
+            try? self.realm?.write {
+                data.title = title
+                data.updateDate = Date()
+            }
+        }
+    }
+    
     func deleteData(data: DatabaseTableData) {
         do {
             self.realm = try? Realm()
