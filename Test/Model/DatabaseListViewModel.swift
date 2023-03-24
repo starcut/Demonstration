@@ -18,6 +18,10 @@ class DatabaseListViewModel: ObservableObject {
         self.data = DatabaseManager.shared.getInstance()
     }
     
+    func updateData(data: DatabaseTableData, inputText: String) {
+        DatabaseManager.shared.updateData(data: data, title: inputText)
+    }
+    
     func deleteData(data: DatabaseTableData) {
         DatabaseManager.shared.deleteData(data: data)
         self.data = DatabaseManager.shared.getInstance()
