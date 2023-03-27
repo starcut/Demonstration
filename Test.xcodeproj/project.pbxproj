@@ -20,6 +20,8 @@
 		FC1756D229C848BF00FD639F /* DatabaseTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756D129C848BF00FD639F /* DatabaseTableData.swift */; };
 		FC1756D429C8492800FD639F /* DatabaseManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756D329C8492800FD639F /* DatabaseManage.swift */; };
 		FC1756D929CAD06600FD639F /* Date+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756D829CAD06600FD639F /* Date+Additional.swift */; };
+		FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756E529D155FF00FD639F /* EnumAllView.swift */; };
+		FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756E829D1566B00FD639F /* EnumAttribute.swift */; };
 		FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */; };
 		FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */; };
 		FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */; };
@@ -56,6 +58,8 @@
 		FC1756D129C848BF00FD639F /* DatabaseTableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTableData.swift; sourceTree = "<group>"; };
 		FC1756D329C8492800FD639F /* DatabaseManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManage.swift; sourceTree = "<group>"; };
 		FC1756D829CAD06600FD639F /* Date+Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additional.swift"; sourceTree = "<group>"; };
+		FC1756E529D155FF00FD639F /* EnumAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAllView.swift; sourceTree = "<group>"; };
+		FC1756E829D1566B00FD639F /* EnumAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAttribute.swift; sourceTree = "<group>"; };
 		FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenView.swift; sourceTree = "<group>"; };
 		FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenViewModel.swift; sourceTree = "<group>"; };
 		FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenSecondView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,14 @@
 			path = Additional;
 			sourceTree = "<group>";
 		};
+		FC1756E729D1561D00FD639F /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				FC1756E829D1566B00FD639F /* EnumAttribute.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		FC83522C298EC1F400614D6B = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 				FCCDCEF829B1CA3D00924E08 /* Info.plist */,
 				FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */,
 				FC835238298EC1F400614D6B /* TestApp.swift */,
+				FC1756E729D1561D00FD639F /* Const */,
 				FC1756DA29CAD0CD00FD639F /* Additional */,
 				FC1756D029C848AB00FD639F /* DB */,
 				FCCDCEF029B1BCB900924E08 /* Model */,
@@ -199,6 +212,7 @@
 				FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */,
 				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
 				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
+				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,9 +336,11 @@
 				FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */,
 				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
+				FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
+				FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */,
 				FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */,
 				FCF5A94629B715DA004154F2 /* ApplicationNotificationView.swift in Sources */,
 				FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */,
