@@ -22,6 +22,8 @@
 		FC1756D929CAD06600FD639F /* Date+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756D829CAD06600FD639F /* Date+Additional.swift */; };
 		FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756E529D155FF00FD639F /* EnumAllView.swift */; };
 		FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756E829D1566B00FD639F /* EnumAttribute.swift */; };
+		FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756ED29D29F3400FD639F /* SpeechView.swift */; };
+		FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */; };
 		FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */; };
 		FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */; };
 		FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */; };
@@ -60,6 +62,8 @@
 		FC1756D829CAD06600FD639F /* Date+Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additional.swift"; sourceTree = "<group>"; };
 		FC1756E529D155FF00FD639F /* EnumAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAllView.swift; sourceTree = "<group>"; };
 		FC1756E829D1566B00FD639F /* EnumAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAttribute.swift; sourceTree = "<group>"; };
+		FC1756ED29D29F3400FD639F /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewModel.swift; sourceTree = "<group>"; };
 		FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenView.swift; sourceTree = "<group>"; };
 		FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenViewModel.swift; sourceTree = "<group>"; };
 		FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenSecondView.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
 				FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */,
 				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
+				FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
 				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
 				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
+				FC1756ED29D29F3400FD639F /* SpeechView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
 				FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */,
+				FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */,
 				FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */,
 				FCF5A94629B715DA004154F2 /* ApplicationNotificationView.swift in Sources */,
 				FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */,
@@ -350,6 +357,7 @@
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
 				FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */,
+				FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */,
 				FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */,
 				FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */,
 				FC83523B298EC1F400614D6B /* RotateView.swift in Sources */,
