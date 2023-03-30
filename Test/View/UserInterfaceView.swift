@@ -20,7 +20,3 @@ struct UserInterfaceView: View {
             .overlay(RoundedRectangle(cornerRadius: 5).stroke(.gray, lineWidth: 1))
     }
 }
-
-
-
-
