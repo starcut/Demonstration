@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EDA7F3681E158AE4B19D6CA3 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02C86E60EC69CF7566260D5 /* Pods_Test.framework */; };
+		FC067E562A47BF1500DCBF2C /* ListMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC067E552A47BF1500DCBF2C /* ListMenuView.swift */; };
+		FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */; };
+		FC067E5B2A485EF100DCBF2C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FC067E5A2A485EF100DCBF2C /* Realm */; };
+		FC067E5D2A485EF100DCBF2C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC067E5C2A485EF100DCBF2C /* RealmSwift */; };
 		FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */; };
 		FC0FD5A929B89F7200CBDA79 /* LiveAudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */; };
 		FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41429BB119700C49D2C /* DelayProcessingView.swift */; };
@@ -32,6 +36,10 @@
 		FC83523B298EC1F400614D6B /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83523A298EC1F400614D6B /* RotateView.swift */; };
 		FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523C298EC1F800614D6B /* Assets.xcassets */; };
 		FC835240298EC1F800614D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523F298EC1F800614D6B /* Preview Assets.xcassets */; };
+		FCC4333D29DD3E18008EF7D9 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */; };
+		FCC4334229E47DB3008EF7D9 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4334129E47DB3008EF7D9 /* PurchaseViewModel.swift */; };
+		FCC4334529E47F0E008EF7D9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4334429E47F0E008EF7D9 /* Store.swift */; };
+		FCC4334729E4836E008EF7D9 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC4334629E4836E008EF7D9 /* Products.plist */; };
 		FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */; };
 		FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */; };
 		FCF5A93A29B35587004154F2 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A93929B35587004154F2 /* PickerView.swift */; };
@@ -49,6 +57,8 @@
 		0165407A1D8233AB14A498BE /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		D02C86E60EC69CF7566260D5 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A1EFBC1168912841A53ABF /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		FC067E552A47BF1500DCBF2C /* ListMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuView.swift; sourceTree = "<group>"; };
+		FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuViewModel.swift; sourceTree = "<group>"; };
 		FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioView.swift; sourceTree = "<group>"; };
 		FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioViewModel.swift; sourceTree = "<group>"; };
 		FC14A41429BB119700C49D2C /* DelayProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingView.swift; sourceTree = "<group>"; };
@@ -74,6 +84,11 @@
 		FC83523A298EC1F400614D6B /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		FC83523C298EC1F800614D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC83523F298EC1F800614D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		FCC4333E29DD43B7008EF7D9 /* TestPurchase.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPurchase.storekit; sourceTree = "<group>"; };
+		FCC4334129E47DB3008EF7D9 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
+		FCC4334429E47F0E008EF7D9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		FCC4334629E4836E008EF7D9 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewModel.swift; sourceTree = "<group>"; };
 		FCCDCEF829B1CA3D00924E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC067E5D2A485EF100DCBF2C /* RealmSwift in Frameworks */,
+				FC067E5B2A485EF100DCBF2C /* Realm in Frameworks */,
 				EDA7F3681E158AE4B19D6CA3 /* Pods_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,10 +185,13 @@
 				FC835238298EC1F400614D6B /* TestApp.swift */,
 				FC1756E729D1561D00FD639F /* Const */,
 				FC1756DA29CAD0CD00FD639F /* Additional */,
+				FCC4334329E47E2A008EF7D9 /* Store */,
 				FC1756D029C848AB00FD639F /* DB */,
 				FCCDCEF029B1BCB900924E08 /* Model */,
 				FCCDCEF129B1BCC400924E08 /* View */,
 				FC83523C298EC1F800614D6B /* Assets.xcassets */,
+				FCC4334629E4836E008EF7D9 /* Products.plist */,
+				FCC4333E29DD43B7008EF7D9 /* TestPurchase.storekit */,
 				FC83523E298EC1F800614D6B /* Preview Content */,
 			);
 			path = Test;
@@ -185,19 +205,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FCC4334329E47E2A008EF7D9 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4334429E47F0E008EF7D9 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		FCCDCEF029B1BCB900924E08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */,
-				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
-				FCF5A93F29B5B62A004154F2 /* TimerViewModel.swift */,
-				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
-				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
-				FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */,
-				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
-				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
-				FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */,
 				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
+				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
+				FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */,
+				FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */,
+				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
+				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
+				FCC4334129E47DB3008EF7D9 /* PurchaseViewModel.swift */,
+				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
+				FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */,
+				FCF5A93F29B5B62A004154F2 /* TimerViewModel.swift */,
+				FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */,
+				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
 				FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */,
 			);
 			path = Model;
@@ -206,21 +236,23 @@
 		FCCDCEF129B1BCC400924E08 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FC83523A298EC1F400614D6B /* RotateView.swift */,
-				FCF5A93929B35587004154F2 /* PickerView.swift */,
-				FCF5A93D29B5B5E5004154F2 /* TimerView.swift */,
-				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
-				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
-				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
+				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
+				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
+				FC83523A298EC1F400614D6B /* RotateView.swift */,
+				FC067E552A47BF1500DCBF2C /* ListMenuView.swift */,
+				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
+				FCF5A93929B35587004154F2 /* PickerView.swift */,
+				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
+				FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */,
+				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
 				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
+				FC1756ED29D29F3400FD639F /* SpeechView.swift */,
 				FC14A41C29C1A62600C49D2C /* TextNumberView.swift */,
+				FCF5A93D29B5B5E5004154F2 /* TimerView.swift */,
 				FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */,
 				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
-				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
-				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
-				FC1756ED29D29F3400FD639F /* SpeechView.swift */,
 				FC1756F129D4078500FD639F /* UserInterfaceView.swift */,
 			);
 			path = View;
@@ -244,6 +276,10 @@
 			dependencies = (
 			);
 			name = Test;
+			packageProductDependencies = (
+				FC067E5A2A485EF100DCBF2C /* Realm */,
+				FC067E5C2A485EF100DCBF2C /* RealmSwift */,
+			);
 			productName = Test;
 			productReference = FC835235298EC1F400614D6B /* Test.app */;
 			productType = "com.apple.product-type.application";
@@ -272,6 +308,9 @@
 				Base,
 			);
 			mainGroup = FC83522C298EC1F400614D6B;
+			packageReferences = (
+				FC067E592A485EF000DCBF2C /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = FC835236298EC1F400614D6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,6 +327,7 @@
 			files = (
 				FC835240298EC1F800614D6B /* Preview Assets.xcassets in Resources */,
 				FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */,
+				FCC4334729E4836E008EF7D9 /* Products.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +383,13 @@
 				FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */,
 				FC14A41D29C1A62600C49D2C /* TextNumberView.swift in Sources */,
 				FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */,
+				FCC4334529E47F0E008EF7D9 /* Store.swift in Sources */,
 				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
+				FC067E562A47BF1500DCBF2C /* ListMenuView.swift in Sources */,
 				FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */,
 				FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */,
+				FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
@@ -362,6 +405,7 @@
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
 				FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */,
 				FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */,
+				FCC4334229E47DB3008EF7D9 /* PurchaseViewModel.swift in Sources */,
 				FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */,
 				FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */,
 				FC83523B298EC1F400614D6B /* RotateView.swift in Sources */,
@@ -373,6 +417,7 @@
 				FC835239298EC1F400614D6B /* TestApp.swift in Sources */,
 				FC1756D929CAD06600FD639F /* Date+Additional.swift in Sources */,
 				FCF5A94229B650DD004154F2 /* RadioButtonsView.swift in Sources */,
+				FCC4333D29DD3E18008EF7D9 /* PurchaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +628,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC067E592A485EF000DCBF2C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC067E5A2A485EF100DCBF2C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC067E592A485EF000DCBF2C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		FC067E5C2A485EF100DCBF2C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC067E592A485EF000DCBF2C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC83522D298EC1F400614D6B /* Project object */;
 }

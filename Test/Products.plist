@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.pro.renewable</key>
+	<string>特別会員</string>
+	<key>com.normal.renewable</key>
+	<string>一般会員</string>
+	<key>com.jem.consume</key>
+	<string>ジェム</string>
+	<key>com.specialItem.nonConsume</key>
+	<string>特殊アイテム</string>
+	<key>com.monthlyPass.nonRenewable</key>
+	<string>月間パス</string>
+	<key>com.yearlyPass.nonRenewable</key>
+	<string>年間パス</string>
+</dict>
+</plist>

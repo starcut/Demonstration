@@ -1,0 +1,161 @@
+{
+  "identifier" : "C66898E7",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "100",
+      "familyShareable" : false,
+      "internalID" : "BB0853FC",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "一ヶ月間サービスを受けられます",
+          "displayName" : "月間パス",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.monthlyPass.nonRenewable",
+      "referenceName" : "monthlyPassSubscription",
+      "type" : "NonRenewingSubscription"
+    },
+    {
+      "displayPrice" : "1000",
+      "familyShareable" : false,
+      "internalID" : "676F5303",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "一年間サービスを受けられます",
+          "displayName" : "年間パス",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.yearlyPass.nonRenewable",
+      "referenceName" : "yearlyPassSubscription",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "300",
+      "familyShareable" : false,
+      "internalID" : "9BC308B8",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "アイテムを買います",
+          "displayName" : "消耗タイプの課金",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.jem.consume",
+      "referenceName" : "jemConsume",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "300",
+      "familyShareable" : false,
+      "internalID" : "1D7A3CD8",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.specialItem.nonConsume",
+      "referenceName" : "specialItemNonConsume",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_locale" : "ja",
+    "_storefront" : "JPN"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "B4BDB22E",
+      "localizations" : [
+
+      ],
+      "name" : "TestPurchase",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "300",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "8AC75981",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "サービスを受けられます",
+              "displayName" : "一般会員",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "com.normal.renewable",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "NormalSubscription",
+          "subscriptionGroupID" : "B4BDB22E",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "500",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "E0C76032",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "特別待遇のサービスを受けられます",
+              "displayName" : "プレミアム会員",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "com.pro.renewable",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "ProSubscription",
+          "subscriptionGroupID" : "B4BDB22E",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
