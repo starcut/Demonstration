@@ -12,6 +12,8 @@
 		FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */; };
 		FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */; };
 		FC0FD5A929B89F7200CBDA79 /* LiveAudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */; };
+		FC146F132A6ECF4200BF8970 /* ClipBoardTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */; };
+		FC146F152A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */; };
 		FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41429BB119700C49D2C /* DelayProcessingView.swift */; };
 		FC14A41729BB11EA00C49D2C /* DelayProcessingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */; };
 		FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC14A41829C0416D00C49D2C /* ShowAlertView.swift */; };
@@ -61,6 +63,8 @@
 		FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuViewModel.swift; sourceTree = "<group>"; };
 		FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioView.swift; sourceTree = "<group>"; };
 		FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioViewModel.swift; sourceTree = "<group>"; };
+		FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipBoardTestView.swift; sourceTree = "<group>"; };
+		FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipBoardTestViewModel.swift; sourceTree = "<group>"; };
 		FC14A41429BB119700C49D2C /* DelayProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingView.swift; sourceTree = "<group>"; };
 		FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayProcessingViewModel.swift; sourceTree = "<group>"; };
 		FC14A41829C0416D00C49D2C /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
@@ -216,6 +220,7 @@
 		FCCDCEF029B1BCB900924E08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */,
 				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
 				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
 				FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */,
@@ -238,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
+				FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */,
 				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
 				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
@@ -384,6 +390,7 @@
 				FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */,
 				FCC4334529E47F0E008EF7D9 /* Store.swift in Sources */,
 				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
+				FC146F132A6ECF4200BF8970 /* ClipBoardTestView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
 				FC067E562A47BF1500DCBF2C /* ListMenuView.swift in Sources */,
 				FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */,
@@ -405,6 +412,7 @@
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
 				FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */,
 				FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */,
+				FC146F152A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift in Sources */,
 				FCC4334229E47DB3008EF7D9 /* PurchaseViewModel.swift in Sources */,
 				FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */,
 				FC14A41929C0416D00C49D2C /* ShowAlertView.swift in Sources */,
