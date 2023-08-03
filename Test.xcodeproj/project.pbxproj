@@ -29,6 +29,9 @@
 		FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756ED29D29F3400FD639F /* SpeechView.swift */; };
 		FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */; };
 		FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756F129D4078500FD639F /* UserInterfaceView.swift */; };
+		FC606AFA2A7BCEBC002DAFDD /* CameraLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */; };
+		FC606AFC2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */; };
+		FC606AFE2A7BD1B0002DAFDD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AFD2A7BD1B0002DAFDD /* ImagePicker.swift */; };
 		FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */; };
 		FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */; };
 		FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */; };
@@ -80,6 +83,9 @@
 		FC1756ED29D29F3400FD639F /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
 		FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewModel.swift; sourceTree = "<group>"; };
 		FC1756F129D4078500FD639F /* UserInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceView.swift; sourceTree = "<group>"; };
+		FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLaunchView.swift; sourceTree = "<group>"; };
+		FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLaunchViewModel.swift; sourceTree = "<group>"; };
+		FC606AFD2A7BD1B0002DAFDD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenView.swift; sourceTree = "<group>"; };
 		FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenViewModel.swift; sourceTree = "<group>"; };
 		FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenSecondView.swift; sourceTree = "<group>"; };
@@ -163,6 +169,14 @@
 			path = Const;
 			sourceTree = "<group>";
 		};
+		FC606B002A7BD249002DAFDD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FC606AFD2A7BD1B0002DAFDD /* ImagePicker.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		FC83522C298EC1F400614D6B = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +201,7 @@
 				FCCDCEF829B1CA3D00924E08 /* Info.plist */,
 				FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */,
 				FC835238298EC1F400614D6B /* TestApp.swift */,
+				FC606B002A7BD249002DAFDD /* Camera */,
 				FC1756E729D1561D00FD639F /* Const */,
 				FC1756DA29CAD0CD00FD639F /* Additional */,
 				FCC4334329E47E2A008EF7D9 /* Store */,
@@ -220,6 +235,7 @@
 		FCCDCEF029B1BCB900924E08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */,
 				FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */,
 				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
 				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
@@ -243,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
+				FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */,
 				FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */,
 				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
@@ -393,11 +410,14 @@
 				FC146F132A6ECF4200BF8970 /* ClipBoardTestView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
 				FC067E562A47BF1500DCBF2C /* ListMenuView.swift in Sources */,
+				FC606AFA2A7BCEBC002DAFDD /* CameraLaunchView.swift in Sources */,
 				FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */,
 				FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */,
 				FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */,
+				FC606AFE2A7BD1B0002DAFDD /* ImagePicker.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
+				FC606AFC2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
 				FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */,
 				FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */,
