@@ -29,6 +29,8 @@
 		FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756ED29D29F3400FD639F /* SpeechView.swift */; };
 		FC1756F029D29F5500FD639F /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */; };
 		FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1756F129D4078500FD639F /* UserInterfaceView.swift */; };
+		FC300B3E2AFA716C00D79731 /* QrScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300B3D2AFA716C00D79731 /* QrScanView.swift */; };
+		FC300B402AFA717C00D79731 /* QrScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */; };
 		FC606AFA2A7BCEBC002DAFDD /* CameraLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */; };
 		FC606AFC2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */; };
 		FC606AFE2A7BD1B0002DAFDD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AFD2A7BD1B0002DAFDD /* ImagePicker.swift */; };
@@ -87,6 +89,8 @@
 		FC1756ED29D29F3400FD639F /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
 		FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewModel.swift; sourceTree = "<group>"; };
 		FC1756F129D4078500FD639F /* UserInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceView.swift; sourceTree = "<group>"; };
+		FC300B3D2AFA716C00D79731 /* QrScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanView.swift; sourceTree = "<group>"; };
+		FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanViewModel.swift; sourceTree = "<group>"; };
 		FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLaunchView.swift; sourceTree = "<group>"; };
 		FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLaunchViewModel.swift; sourceTree = "<group>"; };
 		FC606AFD2A7BD1B0002DAFDD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -261,6 +265,7 @@
 				FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */,
 				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
 				FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */,
+				FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */,
 				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
 				FC1756F129D4078500FD639F /* UserInterfaceView.swift */,
+				FC300B3D2AFA716C00D79731 /* QrScanView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -429,6 +435,7 @@
 				FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */,
 				FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */,
 				FC606AFE2A7BD1B0002DAFDD /* ImagePicker.swift in Sources */,
+				FC300B402AFA717C00D79731 /* QrScanViewModel.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
 				FC606AFC2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift in Sources */,
@@ -442,6 +449,7 @@
 				FC1756D229C848BF00FD639F /* DatabaseTableData.swift in Sources */,
 				FC1756CF29C847FA00FD639F /* DatabaseListViewModel.swift in Sources */,
 				FCA4A10D2A4DC01E00901B5C /* TapGestureViewModel.swift in Sources */,
+				FC300B3E2AFA716C00D79731 /* QrScanView.swift in Sources */,
 				FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */,
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
