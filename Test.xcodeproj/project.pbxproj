@@ -238,6 +238,89 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FCA2D2932B07900500E0614D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
+				FC067E552A47BF1500DCBF2C /* ListMenuView.swift */,
+				FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */,
+				FCF5A93929B35587004154F2 /* PickerView.swift */,
+				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
+				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
+				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCA2D2942B07901000E0614D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */,
+				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
+				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
+				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FCA2D2952B07907A00E0614D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		FCA2D2962B07908A00E0614D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		FCA2D2982B0790A500E0614D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */,
+				FC606B032A7D2969002DAFDD /* CaptureCameraViewModel.swift */,
+				FC606B0D2A7FDAB8002DAFDD /* CaptureCameraPrepareViewModel.swift */,
+				FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		FCA2D2992B0790B700E0614D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */,
+				FC606B012A7D2947002DAFDD /* CaptureCameraView.swift */,
+				FC606B0B2A7FD044002DAFDD /* CaptureCameraPrepareView.swift */,
+				FC300B3D2AFA716C00D79731 /* QrScanView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		FCA2D29B2B0790E500E0614D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
+				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
+				FC1756ED29D29F3400FD639F /* SpeechView.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		FCA2D29C2B0790FF00E0614D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */,
+				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
+				FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		FCC4334329E47E2A008EF7D9 /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,25 +332,17 @@
 		FCCDCEF029B1BCB900924E08 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FC606AFB2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift */,
-				FC606B032A7D2969002DAFDD /* CaptureCameraViewModel.swift */,
-				FC606B0D2A7FDAB8002DAFDD /* CaptureCameraPrepareViewModel.swift */,
+				FCA2D29C2B0790FF00E0614D /* Audio */,
+				FCA2D2982B0790A500E0614D /* Camera */,
+				FCA2D2952B07907A00E0614D /* Database */,
+				FCA2D2942B07901000E0614D /* UI */,
 				FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */,
-				FC1756CE29C847FA00FD639F /* DatabaseListViewModel.swift */,
 				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
-				FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */,
-				FC0FD5A829B89F7200CBDA79 /* LiveAudioViewModel.swift */,
-				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
-				FCF5A94929B85D8A004154F2 /* PlaySoundViewModel.swift */,
 				FCC4334129E47DB3008EF7D9 /* PurchaseViewModel.swift */,
-				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
 				FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */,
 				FCA4A10C2A4DC01E00901B5C /* TapGestureViewModel.swift */,
 				FCF5A93F29B5B62A004154F2 /* TimerViewModel.swift */,
 				FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */,
-				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
-				FC1756EF29D29F5500FD639F /* SpeechViewModel.swift */,
-				FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,31 +350,20 @@
 		FCCDCEF129B1BCC400924E08 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
-				FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */,
-				FC606B012A7D2947002DAFDD /* CaptureCameraView.swift */,
-				FC606B0B2A7FD044002DAFDD /* CaptureCameraPrepareView.swift */,
+				FCA2D29B2B0790E500E0614D /* Audio */,
+				FCA2D2992B0790B700E0614D /* Camera */,
+				FCA2D2962B07908A00E0614D /* Database */,
+				FCA2D2932B07900500E0614D /* UI */,
 				FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */,
-				FC1756CC29C8479000FD639F /* DatabaseListView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
 				FC1756E529D155FF00FD639F /* EnumAllView.swift */,
 				FC83523A298EC1F400614D6B /* RotateView.swift */,
-				FC067E552A47BF1500DCBF2C /* ListMenuView.swift */,
-				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
-				FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */,
-				FCF5A93929B35587004154F2 /* PickerView.swift */,
-				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
 				FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */,
-				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
-				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
-				FC1756ED29D29F3400FD639F /* SpeechView.swift */,
 				FCA4A10A2A4DBDBB00901B5C /* TapGestureView.swift */,
 				FC14A41C29C1A62600C49D2C /* TextNumberView.swift */,
 				FCF5A93D29B5B5E5004154F2 /* TimerView.swift */,
 				FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */,
-				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
 				FC1756F129D4078500FD639F /* UserInterfaceView.swift */,
-				FC300B3D2AFA716C00D79731 /* QrScanView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
