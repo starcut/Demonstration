@@ -45,6 +45,7 @@
 		FC83523B298EC1F400614D6B /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83523A298EC1F400614D6B /* RotateView.swift */; };
 		FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523C298EC1F800614D6B /* Assets.xcassets */; };
 		FC835240298EC1F800614D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523F298EC1F800614D6B /* Preview Assets.xcassets */; };
+		FCA2D2922B03EAED00E0614D /* PanelScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */; };
 		FCA4A10B2A4DBDBB00901B5C /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4A10A2A4DBDBB00901B5C /* TapGestureView.swift */; };
 		FCA4A10D2A4DC01E00901B5C /* TapGestureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4A10C2A4DC01E00901B5C /* TapGestureViewModel.swift */; };
 		FCC4333D29DD3E18008EF7D9 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */; };
@@ -106,6 +107,7 @@
 		FC83523A298EC1F400614D6B /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		FC83523C298EC1F800614D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC83523F298EC1F800614D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScrollView.swift; sourceTree = "<group>"; };
 		FCA4A10A2A4DBDBB00901B5C /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		FCA4A10C2A4DC01E00901B5C /* TapGestureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewModel.swift; sourceTree = "<group>"; };
 		FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				FC83523A298EC1F400614D6B /* RotateView.swift */,
 				FC067E552A47BF1500DCBF2C /* ListMenuView.swift */,
 				FC0FD5A629B89F4000CBDA79 /* LiveAudioView.swift */,
+				FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */,
 				FCF5A93929B35587004154F2 /* PickerView.swift */,
 				FCF5A94729B85D0A004154F2 /* PlaySoundView.swift */,
 				FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */,
@@ -333,7 +336,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					FC835234298EC1F400614D6B = {
 						CreatedOnToolsVersion = 14.1;
@@ -466,6 +469,7 @@
 				FC1756D429C8492800FD639F /* DatabaseManage.swift in Sources */,
 				FCF5A94829B85D0B004154F2 /* PlaySoundView.swift in Sources */,
 				FCF5A93A29B35587004154F2 /* PickerView.swift in Sources */,
+				FCA2D2922B03EAED00E0614D /* PanelScrollView.swift in Sources */,
 				FC835239298EC1F400614D6B /* TestApp.swift in Sources */,
 				FC1756D929CAD06600FD639F /* Date+Additional.swift in Sources */,
 				FCF5A94229B650DD004154F2 /* RadioButtonsView.swift in Sources */,
@@ -513,6 +517,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -573,6 +578,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
