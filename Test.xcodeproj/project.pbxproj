@@ -46,6 +46,9 @@
 		FC83523D298EC1F800614D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523C298EC1F800614D6B /* Assets.xcassets */; };
 		FC835240298EC1F800614D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83523F298EC1F800614D6B /* Preview Assets.xcassets */; };
 		FCA2D2922B03EAED00E0614D /* PanelScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */; };
+		FCA2D2A02B07930800E0614D /* CallZipCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D29F2B07930800E0614D /* CallZipCodeView.swift */; };
+		FCA2D2A22B07935700E0614D /* CallZipCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D2A12B07935700E0614D /* CallZipCodeViewModel.swift */; };
+		FCA2D2A52B07965500E0614D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FCA2D2A42B07965500E0614D /* Alamofire */; };
 		FCA4A10B2A4DBDBB00901B5C /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4A10A2A4DBDBB00901B5C /* TapGestureView.swift */; };
 		FCA4A10D2A4DC01E00901B5C /* TapGestureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4A10C2A4DC01E00901B5C /* TapGestureViewModel.swift */; };
 		FCC4333D29DD3E18008EF7D9 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */; };
@@ -108,6 +111,8 @@
 		FC83523C298EC1F800614D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC83523F298EC1F800614D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScrollView.swift; sourceTree = "<group>"; };
+		FCA2D29F2B07930800E0614D /* CallZipCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallZipCodeView.swift; sourceTree = "<group>"; };
+		FCA2D2A12B07935700E0614D /* CallZipCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallZipCodeViewModel.swift; sourceTree = "<group>"; };
 		FCA4A10A2A4DBDBB00901B5C /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		FCA4A10C2A4DC01E00901B5C /* TapGestureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewModel.swift; sourceTree = "<group>"; };
 		FCC4333C29DD3E18008EF7D9 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
@@ -135,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA7F3681E158AE4B19D6CA3 /* Pods_Test.framework in Frameworks */,
+				FCA2D2A52B07965500E0614D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +327,22 @@
 			path = Audio;
 			sourceTree = "<group>";
 		};
+		FCA2D29D2B07929100E0614D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2D29F2B07930800E0614D /* CallZipCodeView.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FCA2D29E2B0792DC00E0614D /* Newtwork */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2D2A12B07935700E0614D /* CallZipCodeViewModel.swift */,
+			);
+			path = Newtwork;
+			sourceTree = "<group>";
+		};
 		FCC4334329E47E2A008EF7D9 /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +357,7 @@
 				FCA2D29C2B0790FF00E0614D /* Audio */,
 				FCA2D2982B0790A500E0614D /* Camera */,
 				FCA2D2952B07907A00E0614D /* Database */,
+				FCA2D29E2B0792DC00E0614D /* Newtwork */,
 				FCA2D2942B07901000E0614D /* UI */,
 				FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */,
 				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
@@ -353,6 +376,7 @@
 				FCA2D29B2B0790E500E0614D /* Audio */,
 				FCA2D2992B0790B700E0614D /* Camera */,
 				FCA2D2962B07908A00E0614D /* Database */,
+				FCA2D29D2B07929100E0614D /* Network */,
 				FCA2D2932B07900500E0614D /* UI */,
 				FC146F122A6ECF4200BF8970 /* ClipBoardTestView.swift */,
 				FC14A41429BB119700C49D2C /* DelayProcessingView.swift */,
@@ -387,6 +411,7 @@
 			);
 			name = Test;
 			packageProductDependencies = (
+				FCA2D2A42B07965500E0614D /* Alamofire */,
 			);
 			productName = Test;
 			productReference = FC835235298EC1F400614D6B /* Test.app */;
@@ -417,6 +442,7 @@
 			);
 			mainGroup = FC83522C298EC1F400614D6B;
 			packageReferences = (
+				FCA2D2A32B07965500E0614D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = FC835236298EC1F400614D6B /* Products */;
 			projectDirPath = "";
@@ -488,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */,
+				FCA2D2A22B07935700E0614D /* CallZipCodeViewModel.swift in Sources */,
 				FC14A41D29C1A62600C49D2C /* TextNumberView.swift in Sources */,
 				FC606B0C2A7FD044002DAFDD /* CaptureCameraPrepareView.swift in Sources */,
 				FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */,
@@ -518,6 +545,7 @@
 				FCA4A10D2A4DC01E00901B5C /* TapGestureViewModel.swift in Sources */,
 				FC300B3E2AFA716C00D79731 /* QrScanView.swift in Sources */,
 				FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */,
+				FCA2D2A02B07930800E0614D /* CallZipCodeView.swift in Sources */,
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
 				FC0FD5A729B89F4100CBDA79 /* LiveAudioView.swift in Sources */,
 				FC14A41B29C041DA00C49D2C /* ShowAlertViewModel.swift in Sources */,
@@ -751,6 +779,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCA2D2A32B07965500E0614D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCA2D2A42B07965500E0614D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCA2D2A32B07965500E0614D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC83522D298EC1F400614D6B /* Project object */;
 }
