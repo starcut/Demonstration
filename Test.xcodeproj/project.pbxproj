@@ -38,6 +38,7 @@
 		FC606B042A7D2969002DAFDD /* CaptureCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606B032A7D2969002DAFDD /* CaptureCameraViewModel.swift */; };
 		FC606B0C2A7FD044002DAFDD /* CaptureCameraPrepareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606B0B2A7FD044002DAFDD /* CaptureCameraPrepareView.swift */; };
 		FC606B0E2A7FDAB8002DAFDD /* CaptureCameraPrepareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606B0D2A7FDAB8002DAFDD /* CaptureCameraPrepareViewModel.swift */; };
+		FC7A5BEF2B0FC3E900A44FAF /* ZipCodeResponseBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A5BEE2B0FC3E800A44FAF /* ZipCodeResponseBase.swift */; };
 		FC7F397F29C2CCA70071FA03 /* TransScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */; };
 		FC7F398129C2CCFE0071FA03 /* TransScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */; };
 		FC7F398329C2CDCE0071FA03 /* TransScreenSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */; };
@@ -102,6 +103,7 @@
 		FC606B032A7D2969002DAFDD /* CaptureCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCameraViewModel.swift; sourceTree = "<group>"; };
 		FC606B0B2A7FD044002DAFDD /* CaptureCameraPrepareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCameraPrepareView.swift; sourceTree = "<group>"; };
 		FC606B0D2A7FDAB8002DAFDD /* CaptureCameraPrepareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCameraPrepareViewModel.swift; sourceTree = "<group>"; };
+		FC7A5BEE2B0FC3E800A44FAF /* ZipCodeResponseBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeResponseBase.swift; sourceTree = "<group>"; };
 		FC7F397E29C2CCA70071FA03 /* TransScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenView.swift; sourceTree = "<group>"; };
 		FC7F398029C2CCFE0071FA03 /* TransScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenViewModel.swift; sourceTree = "<group>"; };
 		FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransScreenSecondView.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				FCA2D2A12B07935700E0614D /* CallZipCodeViewModel.swift */,
+				FC7A5BEE2B0FC3E800A44FAF /* ZipCodeResponseBase.swift */,
 			);
 			path = Newtwork;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				FC1756CF29C847FA00FD639F /* DatabaseListViewModel.swift in Sources */,
 				FCA4A10D2A4DC01E00901B5C /* TapGestureViewModel.swift in Sources */,
 				FC300B3E2AFA716C00D79731 /* QrScanView.swift in Sources */,
+				FC7A5BEF2B0FC3E900A44FAF /* ZipCodeResponseBase.swift in Sources */,
 				FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */,
 				FCA2D2A02B07930800E0614D /* CallZipCodeView.swift in Sources */,
 				FCF5A94029B5B62A004154F2 /* TimerViewModel.swift in Sources */,
