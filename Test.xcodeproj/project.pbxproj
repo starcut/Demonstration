@@ -32,6 +32,8 @@
 		FC1903862B6397CC005AA30C /* AirPrintTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1903852B6397CC005AA30C /* AirPrintTestView.swift */; };
 		FC1903892B6399A0005AA30C /* AirPrintTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1903882B6399A0005AA30C /* AirPrintTestViewModel.swift */; };
 		FC19038B2B63A1FD005AA30C /* PrinterPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC19038A2B63A1FD005AA30C /* PrinterPickerModel.swift */; };
+		FC282A502B72807E002755E8 /* TouchAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC282A4F2B72807E002755E8 /* TouchAuthView.swift */; };
+		FC282A532B728107002755E8 /* TouchAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC282A522B728107002755E8 /* TouchAuthViewModel.swift */; };
 		FC300B3E2AFA716C00D79731 /* QrScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300B3D2AFA716C00D79731 /* QrScanView.swift */; };
 		FC300B402AFA717C00D79731 /* QrScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */; };
 		FC606AFA2A7BCEBC002DAFDD /* CameraLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */; };
@@ -64,6 +66,12 @@
 		FCC85EFB2B682E7E001EB1B7 /* CameraRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC85EFA2B682E7E001EB1B7 /* CameraRollView.swift */; };
 		FCCDCEF329B1BCE400924E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */; };
 		FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */; };
+		FCDF0E382B914438002B5CA3 /* Zxcvbn in Frameworks */ = {isa = PBXBuildFile; productRef = FCDF0E372B914438002B5CA3 /* Zxcvbn */; };
+		FCDF0E3A2B914438002B5CA3 /* zxcvbn-cli in Frameworks */ = {isa = PBXBuildFile; productRef = FCDF0E392B914438002B5CA3 /* zxcvbn-cli */; };
+		FCDF0E3C2B9147FC002B5CA3 /* SecurityPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF0E3B2B9147FC002B5CA3 /* SecurityPasswordView.swift */; };
+		FCE76C1D2B736C4300AA6230 /* UrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE76C1C2B736C4300AA6230 /* UrlRequest.swift */; };
+		FCEC7C1D2B7C6D8400B1AE3A /* PushNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC7C1C2B7C6D8400B1AE3A /* PushNotificationView.swift */; };
+		FCEC7C1F2B7C6DB300B1AE3A /* PushNotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC7C1E2B7C6DB300B1AE3A /* PushNotificationViewModel.swift */; };
 		FCF5A93A29B35587004154F2 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A93929B35587004154F2 /* PickerView.swift */; };
 		FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A93B29B35602004154F2 /* PickerViewModel.swift */; };
 		FCF5A93E29B5B5E5004154F2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF5A93D29B5B5E5004154F2 /* TimerView.swift */; };
@@ -104,6 +112,8 @@
 		FC1903852B6397CC005AA30C /* AirPrintTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrintTestView.swift; sourceTree = "<group>"; };
 		FC1903882B6399A0005AA30C /* AirPrintTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrintTestViewModel.swift; sourceTree = "<group>"; };
 		FC19038A2B63A1FD005AA30C /* PrinterPickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterPickerModel.swift; sourceTree = "<group>"; };
+		FC282A4F2B72807E002755E8 /* TouchAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAuthView.swift; sourceTree = "<group>"; };
+		FC282A522B728107002755E8 /* TouchAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TouchAuthViewModel.swift; path = Test/View/TouchID/TouchAuthViewModel.swift; sourceTree = SOURCE_ROOT; };
 		FC300B3D2AFA716C00D79731 /* QrScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanView.swift; sourceTree = "<group>"; };
 		FC300B3F2AFA717C00D79731 /* QrScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanViewModel.swift; sourceTree = "<group>"; };
 		FC606AF92A7BCEBC002DAFDD /* CameraLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraLaunchView.swift; sourceTree = "<group>"; };
@@ -138,6 +148,10 @@
 		FCCDCEF229B1BCE400924E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCCDCEF629B1BEEE00924E08 /* RotateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewModel.swift; sourceTree = "<group>"; };
 		FCCDCEF829B1CA3D00924E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FCDF0E3B2B9147FC002B5CA3 /* SecurityPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPasswordView.swift; sourceTree = "<group>"; };
+		FCE76C1C2B736C4300AA6230 /* UrlRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRequest.swift; sourceTree = "<group>"; };
+		FCEC7C1C2B7C6D8400B1AE3A /* PushNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationView.swift; sourceTree = "<group>"; };
+		FCEC7C1E2B7C6DB300B1AE3A /* PushNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationViewModel.swift; sourceTree = "<group>"; };
 		FCF5A93929B35587004154F2 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		FCF5A93B29B35602004154F2 /* PickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
 		FCF5A93D29B5B5E5004154F2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
@@ -157,6 +171,8 @@
 			files = (
 				EDA7F3681E158AE4B19D6CA3 /* Pods_Test.framework in Frameworks */,
 				FCA2D2A52B07965500E0614D /* Alamofire in Frameworks */,
+				FCDF0E3A2B914438002B5CA3 /* zxcvbn-cli in Frameworks */,
+				FCDF0E382B914438002B5CA3 /* Zxcvbn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +230,22 @@
 			path = Printer;
 			sourceTree = "<group>";
 		};
+		FC282A4E2B728046002755E8 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				FC282A4F2B72807E002755E8 /* TouchAuthView.swift */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
+		FC282A512B7280E8002755E8 /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				FC282A522B728107002755E8 /* TouchAuthViewModel.swift */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
 		FC606B002A7BD249002DAFDD /* Camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +284,7 @@
 				FCC4334329E47E2A008EF7D9 /* Store */,
 				FC1756D029C848AB00FD639F /* DB */,
 				FC1903872B6398E2005AA30C /* Printer */,
+				FCE76C1B2B736BF100AA6230 /* SSLSession */,
 				FCCDCEF029B1BCB900924E08 /* Model */,
 				FCCDCEF129B1BCC400924E08 /* View */,
 				FC83523C298EC1F800614D6B /* Assets.xcassets */,
@@ -274,14 +307,16 @@
 			isa = PBXGroup;
 			children = (
 				FCF5A94529B715DA004154F2 /* ApplicationNotificationView.swift */,
+				FCFF9B882B56E8EA00B07B8D /* InterfaceTestView.swift */,
 				FC067E552A47BF1500DCBF2C /* ListMenuView.swift */,
 				FCA2D2912B03EAED00E0614D /* PanelScrollView.swift */,
 				FCF5A93929B35587004154F2 /* PickerView.swift */,
+				FCEC7C1C2B7C6D8400B1AE3A /* PushNotificationView.swift */,
 				FCF5A94129B650DD004154F2 /* RadioButtonsView.swift */,
+				FCDF0E3B2B9147FC002B5CA3 /* SecurityPasswordView.swift */,
 				FC14A41829C0416D00C49D2C /* ShowAlertView.swift */,
 				FCBD63212B6ABFD40065170B /* StepperView.swift */,
 				FC7F398229C2CDCE0071FA03 /* TransScreenSecondView.swift */,
-				FCFF9B882B56E8EA00B07B8D /* InterfaceTestView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -291,6 +326,7 @@
 			children = (
 				FC067E572A48598D00DCBF2C /* ListMenuViewModel.swift */,
 				FCF5A93B29B35602004154F2 /* PickerViewModel.swift */,
+				FCEC7C1E2B7C6DB300B1AE3A /* PushNotificationViewModel.swift */,
 				FCF5A94329B65B71004154F2 /* RadioButtonsViewModel.swift */,
 				FC14A41A29C041DA00C49D2C /* ShowAlertViewModel.swift */,
 				FCBD63232B6AC0C60065170B /* StepperViewModel.swift */,
@@ -388,6 +424,7 @@
 				FCA2D2982B0790A500E0614D /* Camera */,
 				FCA2D2952B07907A00E0614D /* Database */,
 				FCA2D29E2B0792DC00E0614D /* Newtwork */,
+				FC282A512B7280E8002755E8 /* TouchID */,
 				FCA2D2942B07901000E0614D /* UI */,
 				FC146F142A6ECF5B00BF8970 /* ClipBoardTestViewModel.swift */,
 				FC14A41629BB11EA00C49D2C /* DelayProcessingViewModel.swift */,
@@ -407,6 +444,7 @@
 				FCA2D2992B0790B700E0614D /* Camera */,
 				FCA2D2962B07908A00E0614D /* Database */,
 				FCA2D29D2B07929100E0614D /* Network */,
+				FC282A4E2B728046002755E8 /* TouchID */,
 				FCA2D2932B07900500E0614D /* UI */,
 				FC1903852B6397CC005AA30C /* AirPrintTestView.swift */,
 				FCC85EFA2B682E7E001EB1B7 /* CameraRollView.swift */,
@@ -422,6 +460,14 @@
 				FC1756F129D4078500FD639F /* UserInterfaceView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FCE76C1B2B736BF100AA6230 /* SSLSession */ = {
+			isa = PBXGroup;
+			children = (
+				FCE76C1C2B736C4300AA6230 /* UrlRequest.swift */,
+			);
+			path = SSLSession;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +490,8 @@
 			name = Test;
 			packageProductDependencies = (
 				FCA2D2A42B07965500E0614D /* Alamofire */,
+				FCDF0E372B914438002B5CA3 /* Zxcvbn */,
+				FCDF0E392B914438002B5CA3 /* zxcvbn-cli */,
 			);
 			productName = Test;
 			productReference = FC835235298EC1F400614D6B /* Test.app */;
@@ -475,6 +523,7 @@
 			mainGroup = FC83522C298EC1F400614D6B;
 			packageReferences = (
 				FCA2D2A32B07965500E0614D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FCDF0E362B914438002B5CA3 /* XCRemoteSwiftPackageReference "zxcvbn" */,
 			);
 			productRefGroup = FC835236298EC1F400614D6B /* Products */;
 			projectDirPath = "";
@@ -555,18 +604,23 @@
 				FC14A41529BB119700C49D2C /* DelayProcessingView.swift in Sources */,
 				FC146F132A6ECF4200BF8970 /* ClipBoardTestView.swift in Sources */,
 				FCF5A93C29B35602004154F2 /* PickerViewModel.swift in Sources */,
+				FCEC7C1F2B7C6DB300B1AE3A /* PushNotificationViewModel.swift in Sources */,
 				FC606B022A7D2947002DAFDD /* CaptureCameraView.swift in Sources */,
 				FC067E562A47BF1500DCBF2C /* ListMenuView.swift in Sources */,
+				FC282A502B72807E002755E8 /* TouchAuthView.swift in Sources */,
 				FC606AFA2A7BCEBC002DAFDD /* CameraLaunchView.swift in Sources */,
 				FC1756E629D155FF00FD639F /* EnumAllView.swift in Sources */,
 				FC1756F229D4078500FD639F /* UserInterfaceView.swift in Sources */,
 				FC067E582A48598D00DCBF2C /* ListMenuViewModel.swift in Sources */,
 				FC606AFE2A7BD1B0002DAFDD /* ImagePicker.swift in Sources */,
 				FC300B402AFA717C00D79731 /* QrScanViewModel.swift in Sources */,
+				FCE76C1D2B736C4300AA6230 /* UrlRequest.swift in Sources */,
 				FCF5A94A29B85D8A004154F2 /* PlaySoundViewModel.swift in Sources */,
+				FC282A532B728107002755E8 /* TouchAuthViewModel.swift in Sources */,
 				FC1756CD29C8479000FD639F /* DatabaseListView.swift in Sources */,
 				FC606AFC2A7BCF3D002DAFDD /* CameraLaunchViewModel.swift in Sources */,
 				FC606B042A7D2969002DAFDD /* CaptureCameraViewModel.swift in Sources */,
+				FCEC7C1D2B7C6D8400B1AE3A /* PushNotificationView.swift in Sources */,
 				FCCDCEF729B1BEEE00924E08 /* RotateViewModel.swift in Sources */,
 				FC1756E929D1566B00FD639F /* EnumAttribute.swift in Sources */,
 				FC1756EE29D29F3400FD639F /* SpeechView.swift in Sources */,
@@ -607,6 +661,7 @@
 				FCF5A94229B650DD004154F2 /* RadioButtonsView.swift in Sources */,
 				FCA4A10B2A4DBDBB00901B5C /* TapGestureView.swift in Sources */,
 				FCC4333D29DD3E18008EF7D9 /* PurchaseView.swift in Sources */,
+				FCDF0E3C2B9147FC002B5CA3 /* SecurityPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +884,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		FCDF0E362B914438002B5CA3 /* XCRemoteSwiftPackageReference "zxcvbn" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/toddheasley/zxcvbn";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -836,6 +899,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FCA2D2A32B07965500E0614D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		FCDF0E372B914438002B5CA3 /* Zxcvbn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCDF0E362B914438002B5CA3 /* XCRemoteSwiftPackageReference "zxcvbn" */;
+			productName = Zxcvbn;
+		};
+		FCDF0E392B914438002B5CA3 /* zxcvbn-cli */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCDF0E362B914438002B5CA3 /* XCRemoteSwiftPackageReference "zxcvbn" */;
+			productName = "zxcvbn-cli";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
